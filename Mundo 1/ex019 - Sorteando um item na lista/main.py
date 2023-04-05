@@ -4,7 +4,7 @@ import random
 
 aluno = []
 for i in range(4):
-    nome = input(f'Insira o nome do {i+1}° aluno: ').title
+    nome = input(f'Insira o nome do {i+1}° aluno: ').title()
     aluno.append(nome)
 
 sort = random.choice(aluno)
