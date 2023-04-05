@@ -4,10 +4,10 @@ import math
 angulo = float(input('Ângulo: '))
 
 seno = math.sin(math.radians(angulo))
-print('Seno: {seno:.2f}')
+print(f'Seno: {seno:.2f}')
 
 cosseno = math.cos(math.radians(angulo))
-print('Cosseno: {cosseno:.2f}')
+print(f'Cosseno: {cosseno:.2f}')
 
 tangente = math.tan(math.radians(angulo))
-print('Tangente: {tangente:.2f}')
+print(f'Tangente: {tangente:.2f}')
